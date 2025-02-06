@@ -1,9 +1,9 @@
 <h1 align="center">Hi , I'm Awais Tahir</h1>
-<h3 align="center">A passionate web developer</h3>
+<h3 align="center">A passionate web developer 🚀</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=theawais77" alt="theawais77" /></a> </p>
 
-- 📫 How to reach me **theowais45@gmail.com**
+- 📫 How to reach me **theowais456@gmail.com**
 
 - ⚡ Fun fact **I think I can code(sometimes)**
 
