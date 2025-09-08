@@ -1,3 +1,7 @@
+<div align="center"> 
+  <p>Visitor count</p>
+  <img src="https://profile-counter.glitch.me/theawais77/count.svg" alt="Visitor's Count" />
+</div>
 <h1 align="center">Hi , I'm Awais Tahir</h1>
 <h3 align="center">A passionate web developer 🚀</h3>
 
