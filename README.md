@@ -24,11 +24,16 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=theawais77&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
+## 🐍 My Contributions
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=theawais77&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/output/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
-
-
+<hr>
 
 <div align="center"> 
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
