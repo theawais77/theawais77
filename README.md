@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Awais+Tahir;Full+Stack+Developer;Problem+Solver;Tech+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=Hey+%F0%9F%91%8B%2C+I'm+Awais+Tahir;Full+Stack+Developer;Problem+Solver" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -9,20 +9,15 @@
 ## 🚀 About Me
 
 
-const awais = {
-    pronouns: "he" | "him",
-    role: "Full Stack Developer",
-    location: "Pakistan 🇵🇰",
-    currentlyLearning: ["Advanced React Patterns", "Cloud Architecture"],
-    askMeAbout: ["Web Development", "Mobile Apps", "System Design"],
-    funFact: "I debug code better with coffee ☕ and think I can code... sometimes! 😄"
-};
-
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=theawais77" alt="theawais77" /></a> </p>
+- 📫 How to reach me theowais456@gmail.com
+- ⚡ Fun fact I think I can code(sometimes)
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/in/awais-tahir-4425042a8" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="in/awais-tahir-4425042a8" height="30" width="40" /></a>
+</p>
 <div align="center">
-
-### 🏆 GitHub Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=theawais77&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies" />
-
+ <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 </div>
 
 ---
