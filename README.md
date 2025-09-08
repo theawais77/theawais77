@@ -29,9 +29,9 @@
 ## 📊 GitHub Analytics
 <div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
-  <img height="120em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=theawais77&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=theawais77&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages" />
 
-  <img height="120em" src="https://github-readme-streak-stats.herokuapp.com/?user=theawais77&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img height="250em" src="https://github-readme-streak-stats.herokuapp.com/?user=theawais77&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 </div>
 
