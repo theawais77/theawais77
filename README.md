@@ -20,8 +20,8 @@
 <br>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,react,nextjs,nestjs,mongodb,postgres,prisma" />
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind,boostrap,python,redux,git,postman,figma" />
+  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,react,nestjs,mongodb,postgres,docker,azure,npm" />
+  <img src="https://skillicons.dev/icons?i=cs,cpp,python,html,css,tailwind,redux,git,github,postman,figma,discord" />
 </p>
 
 <hr>
@@ -38,9 +38,6 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theawais77/theawais77/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theawais77/theawais77/output/github-contribution-grid-snake.svg" />
     <img alt="github-snake" src="https://raw.githubusercontent.com/theawais77/theawais77/output/github-contribution-grid-snake.svg" />
-    <div align="center">
-  <img src="https://raw.githubusercontent.com/theawais77/theawais77/output/ocean.gif" />
-</div>
   </picture>
 </div>
 <hr>
