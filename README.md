@@ -12,7 +12,7 @@ Final-year Computer Science at Air University, Islamabad. Preparing Microsoft AZ
 
 ## What I'm running
 
-```yaml
+```makefile
 services:
 
   ventrr:
