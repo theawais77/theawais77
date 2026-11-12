@@ -1,42 +1,77 @@
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=Hey+%F0%9F%91%8B%2C+I'm+Awais+Tahir;Full+Stack+Developer;Problem+Solver" alt="Typing SVG" />
-</div>
+# Awais Tahir
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
-</div>
+**Backend and cloud engineer.** I build APIs in NestJS and FastAPI, then take them to production myself — containers, reverse proxy, TLS, CI, and restarts that don't drop in-flight work.
 
-<div align="center"> 
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
-</div>
+Final-year Computer Science at Air University, Islamabad. Preparing Microsoft AZ-204.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/in/awais-tahir-4425042a8" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="in/awais-tahir-4425042a8" height="30" width="40" /></a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-theawais77-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/theawais77)
+[![Email](https://img.shields.io/badge/Email-theowais456@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:theowais456@gmail.com)
+[![Location](https://img.shields.io/badge/Rawalpindi-Pakistan-5B626B?style=flat-square)](#)
 
-## 🛠️ Languages and Tools
+---
 
-<br>
+## What I'm running
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,react,nestjs,mongodb,postgres,docker,azure,npm" />
-  <img src="https://skillicons.dev/icons?i=cs,cpp,python,html,css,tailwind,redux,git,github,postman,figma,discord" />
-</p>
+```yaml
+services:
 
-<hr>
+  ventrr:
+    role:      final year project — investor-readiness platform for pre-seed founders
+    stack:     next.js  ->  nestjs core-api  ->  fastapi ai-service
+    data:      postgres + pgvector, bullmq queues, prisma
+    infra:     docker compose behind caddy, automatic TLS, per-service github actions
+    intel:     12 langgraph agents, pydantic-validated output, multi-provider llm routing
+    decision:  runway / LTV / CAC payback computed in the backend, not by a model
+               — the formula is printed next to every figure
+    url:       https://ventrr.tech
+    source:    private
 
-## 📊 GitHub Analytics
-<div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  dock-ship:
+    role:      zip archive or public github repo  ->  live azure container app
+    stack:     fastapi, react, azure container apps + container registry
+    pipeline:  analyse -> dockerfile -> build -> push -> deploy -> health check -> live url
+    analyser:  deterministic and rule-based across 5 runtimes
+               — every detected value links to the evidence that produced it
+    hardening: zip path traversal, symlinks, zip bombs, entry and size caps
+               immutable per-deployment image tags
+    built_at:  sequel technologies
 
-  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=theawais77&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  shadow-vault:
+    role:      self-destructing file vault
+    stack:     nestjs, postgres, redis bull queue, docker compose
+    infra:     aws ec2, s3, cloudfront signed delivery
+    crypto:    aes-256 at rest, jwt-signed access tokens, configurable expiry
+    source:    theawais77/shadow-vault-server
 
-  <img height="225em" src="https://github-readme-streak-stats.herokuapp.com/?user=theawais77&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  receipt-tracker:
+    role:      serverless receipt OCR pipeline
+    stack:     azure functions, cosmos db, blob storage, static web apps
+    security:  key vault + managed identity — no secrets in app settings
+    source:    theawais77/Receipt-Tracker-Serverless-OCR-Pipeline-on-Azure
+```
 
-</div>
+---
 
+## What I actually know
 
+| | |
+|---|---|
+| **Comfortable** | NestJS · FastAPI · TypeScript · Node.js · Python · PostgreSQL · Redis · Docker · Docker Compose · Linux |
+| **Ship with it** | Azure Container Apps · Container Registry · Azure Functions · Caddy · Nginx · GitHub Actions · BullMQ · Prisma |
+| **Working on it** | AZ-204 · pgvector and retrieval · LangGraph · Kubernetes |
+| **Can read, won't claim** | React · Next.js · C# / ASP.NET · C++ |
 
-<div align="center"> 
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
-</div>
+That last row is deliberate. I'd rather say what I can't do than get found out in an interview.
+
+---
+
+## Worth a look
+
+- **[Azure-serverless-Streaming-backend](https://github.com/theawais77/Azure-serverless-Streaming-backend)** — Durable Functions orchestrating parallel workstreams, Cosmos DB, AI content moderation.
+- **[logistics-delivery-management](https://github.com/theawais77/logistics-delivery-management)** — built to go deep on Postgres rather than on features: transactions, row locks, indexes, `EXPLAIN ANALYZE`, ACID behaviour under contention.
+- **[CryptoSentinel](https://github.com/theawais77/CryptoSentinel)** — TLS certificate discovery and post-quantum readiness analysis. Redis-backed scanner worker.
+- **[OS-Multithreaded-Download-Manager](https://github.com/theawais77/OS-Multithreaded-Download-Manager)** — C++, thread pools, scheduling and synchronisation. CMake + libcurl.
+
+---
+
+<sub>Black Hat MEA 2025 CTF — global finalist, top 125 of 1,200+ teams, Riyadh, with team AIRvanguard. Operations Lead, AWS Cloud Club — Air University.</sub>
