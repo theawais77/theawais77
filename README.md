@@ -51,19 +51,6 @@ services:
     hardening: zip path traversal, symlinks, zip bombs, entry and size caps
                immutable per-deployment image tags
     built_at:  sequel technologies
-
-  shadow-vault:
-    role:      self-destructing file vault
-    stack:     nestjs, postgres, redis bull queue, docker compose
-    infra:     aws ec2, s3, cloudfront signed delivery
-    crypto:    aes-256 at rest, jwt-signed access tokens, configurable expiry
-    source:    theawais77/shadow-vault-server
-
-  receipt-tracker:
-    role:      serverless receipt OCR pipeline
-    stack:     azure functions, cosmos db, blob storage, static web apps
-    security:  key vault + managed identity — no secrets in app settings
-    source:    theawais77/Receipt-Tracker-Serverless-OCR-Pipeline-on-Azure
 ```
 
 ---
@@ -74,10 +61,6 @@ services:
 |---|---|
 | **Comfortable** | NestJS · FastAPI · TypeScript · Node.js · Python · PostgreSQL · Redis · Docker · Docker Compose · Linux |
 | **Ship with it** | Azure Container Apps · Container Registry · Azure Functions · Caddy · Nginx · GitHub Actions · BullMQ · Prisma |
-| **Working on it** | AZ-204 · pgvector and retrieval · LangGraph · Kubernetes |
-| **Can read, won't claim** | React · Next.js · C# / ASP.NET · C++ |
-
-That last row is deliberate. I'd rather say what I can't do than get found out in an interview.
 
 ---
 
