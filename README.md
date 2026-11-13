@@ -73,4 +73,14 @@ services:
 
 ---
 
+## Contribution calendar
+
+<div align="center">
+
+<img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" width="100%">
+
+</div>
+
+---
+
 <sub>Black Hat MEA 2025 CTF — global finalist, top 125 of 1,200+ teams, Riyadh, with team AIRvanguard. Operations Lead, AWS Cloud Club — Air University.</sub>
