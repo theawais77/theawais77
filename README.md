@@ -1,12 +1,28 @@
-# Awais Tahir
+<div align="center">
 
-**Backend and cloud engineer.** I build APIs in NestJS and FastAPI, then take them to production myself — containers, reverse proxy, TLS, CI, and restarts that don't drop in-flight work.
+<img src="deploy.svg" alt="build, push, deploy, health check, live" width="100%">
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=21&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=620&height=40&lines=Backend+and+cloud+engineer;I+containerise+things+and+ship+them;Docker+%C2%B7+Azure+%C2%B7+Caddy+%C2%B7+CI%2FCD" alt="Backend and cloud engineer">
+
+<a href="https://linkedin.com/in/theawais77"><img src="https://img.shields.io/badge/LinkedIn-theawais77-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:theowais456@gmail.com"><img src="https://img.shields.io/badge/Email-theowais456-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://ventrr.tech"><img src="https://img.shields.io/badge/ventrr.tech-live-3FB950?style=for-the-badge&logo=icloud&logoColor=white" alt="ventrr.tech"></a>
+
+</div>
+
+---
+
+I build APIs in NestJS and FastAPI, then take them to production myself — containers, reverse proxy, TLS, CI, and restarts that don't drop in-flight work.
 
 Final-year Computer Science at Air University, Islamabad. Preparing Microsoft AZ-204.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-theawais77-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/theawais77)
-[![Email](https://img.shields.io/badge/Email-theowais456@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:theowais456@gmail.com)
-[![Location](https://img.shields.io/badge/Rawalpindi-Pakistan-5B626B?style=flat-square)](#)
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=docker,azure,nginx,linux,githubactions,nestjs,fastapi,nodejs,ts,py,postgres,redis&theme=dark&perline=12" alt="Docker, Azure, Nginx, Linux, GitHub Actions, NestJS, FastAPI, Node.js, TypeScript, Python, PostgreSQL, Redis">
+
+</div>
 
 ---
 

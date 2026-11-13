@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="880" height="230" role="img" aria-label="Animated deployment pipeline: build, push, deploy, health check, live">
+  <title>build to live, on repeat</title>
+  <style>
+    .panel { fill: #0d1117; stroke: #21262d; stroke-width: 1; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    .cap   { font-size: 11px; fill: #6e7681; letter-spacing: 2.4px; }
+    .lbl   { font-size: 12px; fill: #8b949e; }
+    .ok    { font-size: 12px; fill: #3fb950; }
+    .rail  { stroke: #21262d; stroke-width: 2; stroke-linecap: round; }
+
+    @keyframes drift { from { transform: translateX(-180px); } to { transform: translateX(1020px); } }
+    .cloud  { opacity: .06; fill: #58a6ff; animation: drift 34s linear infinite; }
+    .cloud2 { animation-duration: 52s; animation-delay: -14s; opacity: .045; }
+    .cloud3 { animation-duration: 42s; animation-delay: -30s; opacity: .05; }
+
+    @keyframes sweep { 0% { stroke-dashoffset: 680; } 72% { stroke-dashoffset: 0; } 94% { stroke-dashoffset: 0; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+    .fill { stroke: #3fb950; stroke-width: 2; stroke-linecap: round; fill: none;
+            stroke-dasharray: 680; stroke-dashoffset: 680; animation: sweep 9s linear infinite; }
+
+    @keyframes light {
+      0%, 2%   { fill: #0d1117; stroke: #30363d; }
+      6%       { fill: #1c1708; stroke: #d29922; }
+      14%      { fill: #0d2a14; stroke: #3fb950; }
+      92%      { fill: #0d2a14; stroke: #3fb950; }
+      100%     { fill: #0d1117; stroke: #30363d; }
+    }
+    .node { stroke-width: 2; animation: light 9s linear infinite; }
+    .d2 { animation-delay: 1.25s; } .d3 { animation-delay: 2.5s; }
+    .d4 { animation-delay: 3.75s; } .d5 { animation-delay: 5s; }
+
+    @keyframes textlit { 0%,4% { fill: #6e7681; } 16% { fill: #c9d1d9; } 92% { fill: #c9d1d9; } 100% { fill: #6e7681; } }
+    .tl { animation: textlit 9s linear infinite; }
+
+    @keyframes ride {
+      0%   { transform: translateX(0);   opacity: 0; }
+      4%   { opacity: 1; }
+      72%  { transform: translateX(640px); opacity: 1; }
+      80%  { transform: translateX(640px); opacity: 0; }
+      100% { transform: translateX(640px); opacity: 0; }
+    }
+    .box { animation: ride 9s cubic-bezier(.65,.02,.36,1) infinite; }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .gear { animation: spin 2.6s linear infinite; transform-origin: 12px 12px; }
+
+    @keyframes appear { 0%, 74% { opacity: 0; } 80%, 94% { opacity: 1; } 100% { opacity: 0; } }
+    .live { animation: appear 9s linear infinite; }
+
+    @keyframes pulse { 0%,100% { r: 26; opacity: .20; } 50% { r: 33; opacity: .05; } }
+    .halo { fill: #3fb950; animation: pulse 2.2s ease-in-out infinite; }
+  </style>
+
+  <rect class="panel" x="0.5" y="0.5" width="879" height="229" rx="10"/>
+
+  <g>
+    <g class="cloud">
+      <circle cx="40" cy="52" r="17"/><circle cx="62" cy="44" r="23"/>
+      <circle cx="88" cy="52" r="15"/><rect x="40" y="52" width="48" height="16" rx="8"/>
+    </g>
+    <g class="cloud cloud2">
+      <circle cx="30" cy="186" r="13"/><circle cx="50" cy="179" r="19"/>
+      <circle cx="71" cy="186" r="12"/><rect x="30" y="186" width="41" height="13" rx="6"/>
+    </g>
+    <g class="cloud cloud3">
+      <circle cx="36" cy="112" r="10"/><circle cx="52" cy="106" r="15"/>
+      <circle cx="68" cy="112" r="9"/><rect x="36" y="112" width="32" height="10" rx="5"/>
+    </g>
+  </g>
+
+  <text class="mono cap" x="40" y="44">D E P L O Y &#160; P I P E L I N E</text>
+  <text class="mono lbl" x="40" y="66" fill="#484f58">theawais77 — docker · caddy · github actions</text>
+
+  <line class="rail" x1="80" y1="140" x2="760" y2="140"/>
+  <line class="fill" x1="80" y1="140" x2="760" y2="140"/>
+
+  <g class="node">
+    <circle cx="80" cy="140" r="9"/>
+  </g>
+  <g class="node d2"><circle cx="250" cy="140" r="9"/></g>
+  <g class="node d3"><circle cx="420" cy="140" r="9"/></g>
+  <g class="node d4"><circle cx="590" cy="140" r="9"/></g>
+  <g class="node d5"><circle cx="760" cy="140" r="9"/></g>
+
+  <text class="mono lbl tl"    x="80"  y="176" text-anchor="middle">build</text>
+  <text class="mono lbl tl d2" x="250" y="176" text-anchor="middle" style="animation-delay:1.25s">push</text>
+  <text class="mono lbl tl d3" x="420" y="176" text-anchor="middle" style="animation-delay:2.5s">deploy</text>
+  <text class="mono lbl tl d4" x="590" y="176" text-anchor="middle" style="animation-delay:3.75s">health check</text>
+  <text class="mono lbl tl d5" x="760" y="176" text-anchor="middle" style="animation-delay:5s">live</text>
+
+  <g class="box">
+    <g transform="translate(68,96)">
+      <rect x="0" y="0" width="24" height="24" rx="4" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+      <g class="gear">
+        <rect x="7" y="7" width="4" height="4" fill="#58a6ff"/>
+        <rect x="13" y="7" width="4" height="4" fill="#58a6ff"/>
+        <rect x="7" y="13" width="4" height="4" fill="#58a6ff"/>
+        <rect x="13" y="13" width="4" height="4" fill="#58a6ff"/>
+      </g>
+    </g>
+  </g>
+
+  <g class="live">
+    <circle class="halo" cx="760" cy="140" r="26"/>
+    <text class="mono ok" x="760" y="112" text-anchor="middle">200 OK</text>
+  </g>
+</svg>
